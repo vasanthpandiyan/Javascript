@@ -1,5 +1,5 @@
-let i=1;
-while(i<=4){
-    console.log(i*4);
-    i++;
+let i=0;
+while(i<=16){
+    console.log(i);
+    i+=4
 }
