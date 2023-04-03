@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 0, 179);
     background-image:url(./image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
     box-sizing: border-box;
     font-family: sans-serif;
     outline: none;
