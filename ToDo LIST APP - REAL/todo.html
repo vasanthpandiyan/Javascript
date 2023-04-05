@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List APP</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="todo.css">
+    <!-- Unicons CSS -->
+    <link rel="stylesheet"
+     href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+     <h1></h1>
+     <div class="container">
+        <div class="input-field">
+             <textarea placeholder="Enter your routines here"></textarea>
+             <i class="uil uil-notes note-icon"></i>
+        </div>
+           <ul class="todoLists">
+             <li class="list">
+                <input type="checkbox">
+                <span class="task"> Monday meeting with dharshini .</span>
+                <i class="uil uil-trash"></i>
+            </li>
+            <li class="list">
+                <input type="checkbox">
+                <span class="task"> Tuesday friendship namitha .</span>
+                <i class="uil uil-trash"></i>
+            </li>
+            <li class="list">
+                <input type="checkbox">
+                <span class="task"> Wednesday snacks with savitha .</span>
+                <i class="uil uil-trash"></i>
+            </li><li class="list">
+                <input type="checkbox">
+                <span class="task"> Ada Thursday rest ennaku .</span>
+                <i class="uil uil-trash"></i>
+            </li>
+           </ul>
+
+           <div class="pending tasks">
+            <span>you have <span class="pending-num">no </span>tasks pending.</span>
+            <button class="clear-button">Clear All</button>
+           </div>
+     </div>
+
+     <!-- JavaScript-->
+     <script src="./todo.js"></script>
+</body>
+</html>
